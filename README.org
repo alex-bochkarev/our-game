@@ -1,0 +1,15 @@
+#+TITLE: Наша игра
+
+* Как запустить
+  После того, как сделали `pip install pygame`:
+  #+begin_src bash
+$ git clone https://github.com/alex-bochkarev/our-game.git
+  #+end_src
+  (оно скачается). И потом:
+  #+begin_src bash
+$ python ./test.py
+  #+end_src
+
+  Вся игра в этом файле + подгружает картинки из папки `resources`.
+  Сами картинки нарисованы в GIMP и экспортируются как `png` файлы,
+  чтобы Pygame могла их подгрузить.
